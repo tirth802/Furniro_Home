@@ -38,7 +38,7 @@ const ProductCard = ({ product }) => {
         <h3 className="text-xl font-semibold text-gray-800">{product.name}</h3>
         <p className="text-gray-500">{product.category}</p>
         <div className="flex justify-between items-center mt-2">
-          <p className="font-bold text-gray-800">${product.price.toFixed(2)}</p>
+          <p className="font-bold text-gray-800">Rp{product.price.toFixed(2)}</p>
           {product.oldPrice && (
             <p className="text-gray-400 line-through text-sm">
               ${product.oldPrice.toFixed(2)}
