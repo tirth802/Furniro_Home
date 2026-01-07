@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import bad from '../assets/bed.png';
+import bad from '../assets/Bed.png';
 import Table from '../assets/Table.png';
 import side from '../assets/side.png';
 
